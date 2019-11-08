@@ -20,7 +20,7 @@ import "time"
 type Config struct {
 	Secure      bool
 	Secret      string
-	Domain			string
+	Domain      string
 	Timeout     time.Duration
 	MappingFile string
 }
