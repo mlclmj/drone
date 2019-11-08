@@ -51,6 +51,7 @@ func (s *session) Create(w http.ResponseWriter, user *core.User) error {
 		Path:     "/",
 		MaxAge:   2147483647,
 		HttpOnly: true,
+		Domain:		d.domain,
 		Secure:   s.secure,
 		Value: authcookie.NewSinceNow(
 			user.Login,

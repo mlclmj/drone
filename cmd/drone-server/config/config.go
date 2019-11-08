@@ -272,6 +272,7 @@ type (
 		Timeout     time.Duration `envconfig:"DRONE_COOKIE_TIMEOUT" default:"720h"`
 		Secret      string        `envconfig:"DRONE_COOKIE_SECRET"`
 		Secure      bool          `envconfig:"DRONE_COOKIE_SECURE"`
+		Domain			string				`envconfig:"DRONE_COOKIE_DOMAIN"`
 		MappingFile string        `envconfig:"DRONE_LEGACY_TOKEN_MAPPING_FILE"`
 	}
 

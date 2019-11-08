@@ -36,6 +36,7 @@ func Legacy(users core.UserStore, config Config) (core.Session, error) {
 	base := &session{
 		secret:  []byte(config.Secret),
 		secure:  config.Secure,
+		domain:  config.Domain,
 		timeout: config.Timeout,
 		users:   users,
 	}
@@ -105,4 +106,3 @@ func (s *legacy) fromToken(r *http.Request) (*core.User, error) {
 		token.Claims.(jwt.MapClaims)["text"].(string),
 	)
 }
-

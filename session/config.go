@@ -20,15 +20,17 @@ import "time"
 type Config struct {
 	Secure      bool
 	Secret      string
+	Domain			string
 	Timeout     time.Duration
 	MappingFile string
 }
 
 // NewConfig returns a new session configuration.
-func NewConfig(secret string, timeout time.Duration, secure bool) Config {
+func NewConfig(secret string, timeout time.Duration, secure bool, domain string) Config {
 	return Config{
 		Secure:  secure,
 		Secret:  secret,
+		Domain:	 domain,
 		Timeout: timeout,
 	}
 }
