@@ -128,7 +128,8 @@ func provideSession(store core.UserStore, config config.Config) (core.Session, e
 	return session.New(store, session.NewConfig(
 		config.Session.Secret,
 		config.Session.Timeout,
-		config.Session.Secure),
+		config.Session.Secure,
+		config.Session.Domain),
 	), nil
 }
 

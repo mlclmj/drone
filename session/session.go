@@ -30,6 +30,7 @@ func New(users core.UserStore, config Config) core.Session {
 		secret:  []byte(config.Secret),
 		secure:  config.Secure,
 		timeout: config.Timeout,
+		domain:	 config.Domain,
 		users:   users,
 	}
 }
@@ -38,6 +39,7 @@ type session struct {
 	users   core.UserStore
 	secret  []byte
 	secure  bool
+	domain	string
 	timeout time.Duration
 
 	administrator string // administrator account
@@ -51,6 +53,7 @@ func (s *session) Create(w http.ResponseWriter, user *core.User) error {
 		Path:     "/",
 		MaxAge:   2147483647,
 		HttpOnly: true,
+		Domain:		s.domain,
 		Secure:   s.secure,
 		Value: authcookie.NewSinceNow(
 			user.Login,
