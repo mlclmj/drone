@@ -19,7 +19,6 @@ require (
 	github.com/docker/go-units v0.3.3
 	github.com/drone/drone-go v1.0.6
 	github.com/drone/drone-runtime v1.1.0
-	github.com/drone/drone-ui v0.0.0-20191004020100-87de5a7c28a9
 	github.com/drone/drone-yaml v1.2.3-0.20191031071139-9036725284d3
 	github.com/drone/envsubst v1.0.1
 	github.com/drone/go-license v1.0.2
@@ -63,6 +62,7 @@ require (
 	github.com/mattn/go-sqlite3 v1.9.0
 	github.com/matttproud/golang_protobuf_extensions v1.0.1
 	github.com/mitchellh/go-homedir v1.1.0
+	github.com/mlclmj/drone-ui v1.0.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
 	github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742
 	github.com/natessilva/dag v0.0.0-20180124060714-7194b8dcc5c4
@@ -100,3 +100,5 @@ require (
 )
 
 replace github.com/h2non/gock => gopkg.in/h2non/gock.v1 v1.0.14
+
+replace github.com/drone/drone => ./
