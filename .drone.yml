@@ -12,7 +12,7 @@ steps:
   image: golang:1.13.0
   commands:
   - go test ./...
-  
+
 - name: build
   image: golang:1.13.0
   commands:
@@ -27,7 +27,7 @@ steps:
     auto_tag: true
     auto_tag_suffix: linux-amd64
     dockerfile: docker/Dockerfile.server.linux.amd64
-    repo: drone/drone
+    repo: mlclmj/drone
     username:
       from_secret: docker_username
     password:
@@ -43,7 +43,7 @@ steps:
     auto_tag: true
     auto_tag_suffix: linux-amd64
     dockerfile: docker/Dockerfile.agent.linux.amd64
-    repo: drone/agent
+    repo: mlclmj/agent
     username:
       from_secret: docker_username
     password:
@@ -59,7 +59,7 @@ steps:
     auto_tag: true
     auto_tag_suffix: linux-amd64
     dockerfile: docker/Dockerfile.controller.linux.amd64
-    repo: drone/controller
+    repo: mlclmj/controller
     username:
       from_secret: docker_username
     password:
@@ -93,7 +93,7 @@ steps:
     auto_tag: true
     auto_tag_suffix: linux-arm64
     dockerfile: docker/Dockerfile.server.linux.arm64
-    repo: drone/drone
+    repo: mlclmj/drone
     username:
       from_secret: docker_username
     password:
@@ -105,7 +105,7 @@ steps:
     auto_tag: true
     auto_tag_suffix: linux-arm64
     dockerfile: docker/Dockerfile.agent.linux.arm64
-    repo: drone/agent
+    repo: mlclmj/agent
     username:
       from_secret: docker_username
     password:
@@ -117,7 +117,7 @@ steps:
     auto_tag: true
     auto_tag_suffix: linux-arm64
     dockerfile: docker/Dockerfile.controller.linux.arm64
-    repo: drone/controller
+    repo: mlclmj/controller
     username:
       from_secret: docker_username
     password:
@@ -155,7 +155,7 @@ steps:
     auto_tag: true
     auto_tag_suffix: linux-arm
     dockerfile: docker/Dockerfile.server.linux.arm
-    repo: drone/drone
+    repo: mlclmj/drone
     username:
       from_secret: docker_username
     password:
@@ -167,7 +167,7 @@ steps:
     auto_tag: true
     auto_tag_suffix: linux-arm
     dockerfile: docker/Dockerfile.agent.linux.arm
-    repo: drone/agent
+    repo: mlclmj/agent
     username:
       from_secret: docker_username
     password:
@@ -179,7 +179,7 @@ steps:
     auto_tag: true
     auto_tag_suffix: linux-arm
     dockerfile: docker/Dockerfile.controller.linux.arm
-    repo: drone/controller
+    repo: mlclmj/controller
     username:
       from_secret: docker_username
     password:
@@ -189,76 +189,6 @@ trigger:
   event:
   - push
   - tag
-
-depends_on:
-- linux-amd64
-
----
-kind: pipeline
-type: ssh
-name: windows-1809-amd64
-
-platform:
-  os: windows
-
-server:
-  host: windows.1809.amd64.ssh.pipeline.drone.ci
-  password:
-    from_secret: windows_password
-  user:
-    from_secret: windows_username
-
-steps:
-- name: build
-  commands:
-  - powershell.exe scripts/build.ps1
-  - docker login -u $env:USERNAME -p $env:PASSWORD
-  - docker build -f docker/Dockerfile.agent.windows.1809 -t drone/agent:windows-1809-amd64 .
-  - docker push drone/agent:windows-1809-amd64
-  environment:
-    PASSWORD:
-      from_secret: docker_password
-    USERNAME:
-      from_secret: docker_username
-
-trigger:
-  event:
-  - push
-
-depends_on:
-- linux-amd64
-
----
-kind: pipeline
-type: ssh
-name: windows-1903-amd64
-
-platform:
-  os: windows
-
-server:
-  host: windows.1903.amd64.ssh.pipeline.drone.ci
-  password:
-    from_secret: windows_password
-  user:
-    from_secret: windows_username
-
-steps:
-- name: build
-  commands:
-  - powershell.exe scripts/build.ps1
-  - docker login -u $env:USERNAME -p $env:PASSWORD
-  - docker build -f docker/Dockerfile.agent.windows.1903 -t drone/agent:windows-1903-amd64 .
-  - docker push drone/agent:windows-1903-amd64
-  environment:
-    PASSWORD:
-      from_secret: docker_password
-    USERNAME:
-      from_secret: docker_username
-
-trigger:
-  event:
-  - push
 
 depends_on:
 - linux-amd64
@@ -310,5 +240,3 @@ trigger:
 depends_on:
 - linux-arm64
 - linux-arm
-- windows-1903-amd64
-- windows-1809-amd64
