@@ -18,10 +18,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/drone/drone/core"
+	"github.com/mlclmj/drone/core"
 
-	"github.com/drone/go-scm/scm"
-	"github.com/drone/go-scm/scm/transport/oauth2"
+	"github.com/mlclmj/go-scm/scm"
+	"github.com/mlclmj/go-scm/scm/transport/oauth2"
 )
 
 // expiryDelta determines how earlier a token should be considered

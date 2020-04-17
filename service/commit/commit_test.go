@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/drone/drone/mock"
-	"github.com/drone/drone/mock/mockscm"
-	"github.com/drone/drone/core"
-	"github.com/drone/go-scm/scm"
+	"github.com/mlclmj/drone/mock"
+	"github.com/mlclmj/drone/mock/mockscm"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/go-scm/scm"
 	"github.com/golang/mock/gomock"
 	"github.com/google/go-cmp/cmp"
 )

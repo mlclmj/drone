@@ -19,8 +19,8 @@ package trigger
 // 	"regexp"
 // 	"strconv"
 
-// 	"github.com/drone/drone/core"
-// 	"github.com/drone/go-scm/scm"
+// 	"github.com/mlclmj/drone/core"
+// 	"github.com/mlclmj/go-scm/scm"
 // )
 
 // func listChanges(client *scm.Client, repo *core.Repository, build *core.Build) ([]string, error) {

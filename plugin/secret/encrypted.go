@@ -21,9 +21,9 @@ import (
 	"encoding/base64"
 	"errors"
 
-	"github.com/drone/drone-yaml/yaml"
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/logger"
+	"github.com/mlclmj/drone-yaml/yaml"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/logger"
 )
 
 // Encrypted returns a new encrypted Secret controller.

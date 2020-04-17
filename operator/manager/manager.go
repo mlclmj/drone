@@ -20,9 +20,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/drone/drone-yaml/yaml/converter"
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/store/shared/db"
+	"github.com/mlclmj/drone-yaml/yaml/converter"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/store/shared/db"
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/sirupsen/logrus"

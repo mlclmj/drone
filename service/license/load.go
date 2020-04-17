@@ -23,7 +23,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/drone/drone/core"
+	"github.com/mlclmj/drone/core"
 	"github.com/drone/go-license/license"
 	"github.com/drone/go-license/license/licenseutil"
 )

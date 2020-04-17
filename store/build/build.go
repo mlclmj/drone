@@ -20,8 +20,8 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/store/shared/db"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/store/shared/db"
 )
 
 // regular expression to extract the pull request number

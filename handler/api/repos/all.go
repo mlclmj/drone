@@ -18,9 +18,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/handler/api/render"
-	"github.com/drone/drone/logger"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/handler/api/render"
+	"github.com/mlclmj/drone/logger"
 )
 
 // HandleAll returns an http.HandlerFunc that processes http

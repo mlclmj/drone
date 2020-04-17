@@ -17,7 +17,7 @@
 package converter
 
 import (
-	"github.com/drone/drone/core"
+	"github.com/mlclmj/drone/core"
 )
 
 // Legacy returns a conversion service that converts the

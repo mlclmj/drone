@@ -19,7 +19,7 @@ package request
 import (
 	"context"
 
-	"github.com/drone/drone/core"
+	"github.com/mlclmj/drone/core"
 )
 
 type key int

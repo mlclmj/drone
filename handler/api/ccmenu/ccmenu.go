@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/drone/drone/core"
+	"github.com/mlclmj/drone/core"
 
 	"github.com/go-chi/chi"
 )

@@ -10,9 +10,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/drone/drone-go/drone"
-	"github.com/drone/drone-go/plugin/validator"
-	"github.com/drone/drone/core"
+	"github.com/mlclmj/drone-go/drone"
+	"github.com/mlclmj/drone-go/plugin/validator"
+	"github.com/mlclmj/drone/core"
 )
 
 // Remote returns a conversion service that converts the

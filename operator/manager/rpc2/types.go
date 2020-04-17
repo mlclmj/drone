@@ -7,8 +7,8 @@ package rpc2
 
 // Copyright 2019 Drone.IO Inc. All rights reserved.
 import (
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/operator/manager"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/operator/manager"
 )
 
 // details provides the runner with the build details and

@@ -17,7 +17,7 @@ package admission
 import (
 	"context"
 
-	"github.com/drone/drone/core"
+	"github.com/mlclmj/drone/core"
 )
 
 // noop is a stub admission controller.

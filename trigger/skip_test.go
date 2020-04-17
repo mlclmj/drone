@@ -9,8 +9,8 @@ package trigger
 import (
 	"testing"
 
-	"github.com/drone/drone-yaml/yaml"
-	"github.com/drone/drone/core"
+	"github.com/mlclmj/drone-yaml/yaml"
+	"github.com/mlclmj/drone/core"
 )
 
 func Test_skipBranch(t *testing.T) {

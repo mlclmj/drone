@@ -24,9 +24,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/logger"
-	"github.com/drone/go-scm/scm"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/logger"
+	"github.com/mlclmj/go-scm/scm"
 )
 
 // this is intended for local testing and instructs the handler

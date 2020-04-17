@@ -15,11 +15,11 @@
 package main
 
 import (
-	"github.com/drone/drone-runtime/engine/docker"
-	"github.com/drone/drone/cmd/drone-server/config"
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/operator/manager"
-	"github.com/drone/drone/operator/runner"
+	"github.com/mlclmj/drone-runtime/engine/docker"
+	"github.com/mlclmj/drone/cmd/drone-server/config"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/operator/manager"
+	"github.com/mlclmj/drone/operator/runner"
 
 	"github.com/google/wire"
 	"github.com/sirupsen/logrus"

@@ -9,8 +9,8 @@ package rpc
 import (
 	"sync"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/operator/manager"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/operator/manager"
 )
 
 type requestRequest struct {

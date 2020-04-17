@@ -17,11 +17,11 @@ package remote
 import (
 	"net/http"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/handler/api/render"
-	"github.com/drone/drone/handler/api/request"
-	"github.com/drone/drone/logger"
-	"github.com/drone/go-scm/scm"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/handler/api/render"
+	"github.com/mlclmj/drone/handler/api/request"
+	"github.com/mlclmj/drone/logger"
+	"github.com/mlclmj/go-scm/scm"
 
 	"github.com/go-chi/chi"
 )

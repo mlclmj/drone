@@ -1,4 +1,4 @@
-module github.com/drone/drone
+module github.com/mlclmj/drone
 
 require (
 	docker.io/go-docker v1.0.0

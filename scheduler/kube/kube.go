@@ -17,8 +17,8 @@ import (
 	"github.com/hashicorp/go-multierror"
 
 	"github.com/dchest/uniuri"
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/scheduler/internal"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/scheduler/internal"
 	"github.com/sirupsen/logrus"
 
 	batchv1 "k8s.io/api/batch/v1"

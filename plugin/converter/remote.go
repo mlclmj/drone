@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/drone/drone-go/drone"
-	"github.com/drone/drone-go/plugin/converter"
-	"github.com/drone/drone/core"
+	"github.com/mlclmj/drone-go/drone"
+	"github.com/mlclmj/drone-go/plugin/converter"
+	"github.com/mlclmj/drone/core"
 )
 
 // Remote returns a conversion service that converts the

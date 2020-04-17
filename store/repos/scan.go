@@ -17,8 +17,8 @@ package repos
 import (
 	"database/sql"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/store/shared/db"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/store/shared/db"
 )
 
 // ToParams converts the Repository structure to a set

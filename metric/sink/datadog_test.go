@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/drone/drone/mock"
-	"github.com/drone/drone/version"
+	"github.com/mlclmj/drone/mock"
+	"github.com/mlclmj/drone/version"
 	"github.com/golang/mock/gomock"
 	"github.com/h2non/gock"
 )

@@ -17,8 +17,8 @@ package trigger
 import (
 	"strings"
 
-	"github.com/drone/drone-yaml/yaml"
-	"github.com/drone/drone/core"
+	"github.com/mlclmj/drone-yaml/yaml"
+	"github.com/mlclmj/drone/core"
 )
 
 func skipBranch(document *yaml.Pipeline, branch string) bool {

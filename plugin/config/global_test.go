@@ -9,7 +9,7 @@ package config
 import (
 	"testing"
 
-	"github.com/drone/drone/core"
+	"github.com/mlclmj/drone/core"
 	"github.com/h2non/gock"
 )
 

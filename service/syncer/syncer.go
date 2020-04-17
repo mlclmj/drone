@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/drone/drone/core"
+	"github.com/mlclmj/drone/core"
 
 	"github.com/sirupsen/logrus"
 )

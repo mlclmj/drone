@@ -13,8 +13,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/mock"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/mock"
 	"github.com/sirupsen/logrus"
 
 	"github.com/golang/mock/gomock"

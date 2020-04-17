@@ -15,16 +15,16 @@
 package main
 
 import (
-	spec "github.com/drone/drone/cmd/drone-server/config"
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/plugin/admission"
-	"github.com/drone/drone/plugin/config"
-	"github.com/drone/drone/plugin/converter"
-	"github.com/drone/drone/plugin/registry"
-	"github.com/drone/drone/plugin/secret"
-	"github.com/drone/drone/plugin/validator"
-	"github.com/drone/drone/plugin/webhook"
-	"github.com/drone/go-scm/scm"
+	spec "github.com/mlclmj/drone/cmd/drone-server/config"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/plugin/admission"
+	"github.com/mlclmj/drone/plugin/config"
+	"github.com/mlclmj/drone/plugin/converter"
+	"github.com/mlclmj/drone/plugin/registry"
+	"github.com/mlclmj/drone/plugin/secret"
+	"github.com/mlclmj/drone/plugin/validator"
+	"github.com/mlclmj/drone/plugin/webhook"
+	"github.com/mlclmj/go-scm/scm"
 
 	"github.com/google/wire"
 )

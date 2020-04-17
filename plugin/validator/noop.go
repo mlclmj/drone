@@ -19,7 +19,7 @@ package validator
 import (
 	"context"
 
-	"github.com/drone/drone/core"
+	"github.com/mlclmj/drone/core"
 )
 
 type noop struct{}

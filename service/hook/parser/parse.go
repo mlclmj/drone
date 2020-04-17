@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/go-scm/scm"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/go-scm/scm"
 )
 
 // TODO(bradrydzewski): stash, push hook missing link

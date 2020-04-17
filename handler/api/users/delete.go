@@ -17,9 +17,9 @@ package users
 import (
 	"net/http"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/handler/api/render"
-	"github.com/drone/drone/logger"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/handler/api/render"
+	"github.com/mlclmj/drone/logger"
 
 	"github.com/go-chi/chi"
 )

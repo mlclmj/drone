@@ -9,8 +9,8 @@ package secrets
 import (
 	"net/http"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/handler/api/render"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/drone/handler/api/render"
 
 	"github.com/go-chi/chi"
 )

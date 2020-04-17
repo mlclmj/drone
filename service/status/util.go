@@ -17,8 +17,8 @@ package status
 import (
 	"fmt"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/go-scm/scm"
+	"github.com/mlclmj/drone/core"
+	"github.com/mlclmj/go-scm/scm"
 )
 
 func createLabel(name, event string) string {

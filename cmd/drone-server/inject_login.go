@@ -15,7 +15,7 @@
 package main
 
 import (
-	"github.com/drone/drone/cmd/drone-server/config"
+	"github.com/mlclmj/drone/cmd/drone-server/config"
 	"github.com/drone/go-login/login"
 	"github.com/drone/go-login/login/bitbucket"
 	"github.com/drone/go-login/login/gitea"
@@ -23,7 +23,7 @@ import (
 	"github.com/drone/go-login/login/gitlab"
 	"github.com/drone/go-login/login/gogs"
 	"github.com/drone/go-login/login/stash"
-	"github.com/drone/go-scm/scm/transport/oauth2"
+	"github.com/mlclmj/go-scm/scm/transport/oauth2"
 	"strings"
 
 	"github.com/google/wire"
