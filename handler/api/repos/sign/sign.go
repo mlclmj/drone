@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/mlclmj/drone-yaml/yaml/signer"
+	"github.com/drone/drone-yaml/yaml/signer"
 	"github.com/mlclmj/drone/core"
 	"github.com/mlclmj/drone/handler/api/render"
 

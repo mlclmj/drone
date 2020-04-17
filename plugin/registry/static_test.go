@@ -7,7 +7,7 @@ package registry
 import (
 	"testing"
 
-	"github.com/mlclmj/drone-yaml/yaml"
+	"github.com/drone/drone-yaml/yaml"
 	"github.com/mlclmj/drone/core"
 	"github.com/google/go-cmp/cmp"
 )

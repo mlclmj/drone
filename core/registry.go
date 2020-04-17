@@ -17,7 +17,7 @@ package core
 import (
 	"context"
 
-	"github.com/mlclmj/drone-yaml/yaml"
+	"github.com/drone/drone-yaml/yaml"
 )
 
 const (

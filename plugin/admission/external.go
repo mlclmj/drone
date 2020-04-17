@@ -10,8 +10,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/mlclmj/drone-go/drone"
-	"github.com/mlclmj/drone-go/plugin/admission"
+	"github.com/drone/drone-go/drone"
+	"github.com/drone/drone-go/plugin/admission"
 	"github.com/mlclmj/drone/core"
 )
 

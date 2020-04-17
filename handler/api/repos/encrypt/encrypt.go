@@ -23,7 +23,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/mlclmj/drone-go/drone"
+	"github.com/drone/drone-go/drone"
 	"github.com/mlclmj/drone/core"
 	"github.com/mlclmj/drone/handler/api/render"
 	"github.com/go-chi/chi"

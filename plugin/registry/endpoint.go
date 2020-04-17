@@ -9,7 +9,7 @@ package registry
 import (
 	"context"
 
-	"github.com/mlclmj/drone-go/plugin/registry"
+	"github.com/drone/drone-go/plugin/registry"
 	"github.com/mlclmj/drone/core"
 	"github.com/mlclmj/drone/logger"
 )

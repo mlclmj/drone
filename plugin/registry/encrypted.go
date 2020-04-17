@@ -21,7 +21,7 @@ import (
 	"encoding/base64"
 	"errors"
 
-	"github.com/mlclmj/drone-yaml/yaml"
+	"github.com/drone/drone-yaml/yaml"
 	"github.com/mlclmj/drone/core"
 	"github.com/mlclmj/drone/logger"
 	"github.com/mlclmj/drone/plugin/registry/auths"

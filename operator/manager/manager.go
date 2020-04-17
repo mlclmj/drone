@@ -20,7 +20,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/mlclmj/drone-yaml/yaml/converter"
+	"github.com/drone/drone-yaml/yaml/converter"
 	"github.com/mlclmj/drone/core"
 	"github.com/mlclmj/drone/store/shared/db"
 
